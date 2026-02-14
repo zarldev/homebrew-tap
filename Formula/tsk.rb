@@ -1,26 +1,26 @@
 class Tsk < Formula
   desc "Simple CLI task tracker"
   homepage "https://zarldev.github.io/tsk/"
-  version "0.1.1"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/zarldev/tsk/releases/download/v0.1.1/tsk-darwin-arm64.tar.gz"
-      sha256 "737c5602a0bd10e15db987e2af46446e2f3aa47fc128ed9ba23b0d00a138cf7b"
+      url "https://github.com/zarldev/tsk/releases/download/v0.2.0/tsk-darwin-arm64.tar.gz"
+      sha256 "6298db0440b3b0e75af22cf2438b488fe0bf3bd5bdd65873e0173435b328a7d3"
     else
-      url "https://github.com/zarldev/tsk/releases/download/v0.1.1/tsk-darwin-amd64.tar.gz"
-      sha256 "db01bbd682ed7df6c8d46e52f400278636dea90aac86c67dffad11d9b4567c3b"
+      url "https://github.com/zarldev/tsk/releases/download/v0.2.0/tsk-darwin-amd64.tar.gz"
+      sha256 "169cfadf03c04dc40d2f9ee135c8bac5a07b370c949845b1728504a912fa30eb"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/zarldev/tsk/releases/download/v0.1.1/tsk-linux-arm64.tar.gz"
-      sha256 "14097357cc8e7bccf070923628faaf7658261436015889017a44973a6aa1f400"
+      url "https://github.com/zarldev/tsk/releases/download/v0.2.0/tsk-linux-arm64.tar.gz"
+      sha256 "9fc8dde5e16172e67f8ca2eeeeb48574d350e3acaf19bc06a40189a85c837f10"
     else
-      url "https://github.com/zarldev/tsk/releases/download/v0.1.1/tsk-linux-amd64.tar.gz"
-      sha256 "28b00b7f405f85b1abd45f7136bafae447465a1ff7a42143b3c694ab66a58b4c"
+      url "https://github.com/zarldev/tsk/releases/download/v0.2.0/tsk-linux-amd64.tar.gz"
+      sha256 "650b9f423475a433ece6fca4d6f13ef48215a30be278e7de81b85749b9fd7240"
     end
   end
 

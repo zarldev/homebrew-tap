@@ -7,20 +7,20 @@ class Tsk < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/zarldev/tsk/releases/download/v0.3.0/tsk-darwin-arm64.tar.gz"
-      sha256 "ca72edc582aa89ecb7927f00a6bf504075633fd4013e8d5b237092766c48c063"
+      sha256 "a3c26cdbe54179b7c44e6e9d58207978c098324fab952e36f166b58d287f5db8"
     else
       url "https://github.com/zarldev/tsk/releases/download/v0.3.0/tsk-darwin-amd64.tar.gz"
-      sha256 "867dfb66c409efe8d0302fd708aa8e959501f4d154a3ce4288777714f3c5431f"
+      sha256 "b106aec977f3caf335e443a2c612834ed4228dae560510f131b4797eb86b9ea2"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/zarldev/tsk/releases/download/v0.3.0/tsk-linux-arm64.tar.gz"
-      sha256 "cae04fd38164cee4404c2d765ec1870daf55380f357d51a9ea38ac14f817d153"
+      sha256 "4834f4d78d154bb32440bc4c18ad93de08c8ce697dbc211b7a8213af1af88ef5"
     else
       url "https://github.com/zarldev/tsk/releases/download/v0.3.0/tsk-linux-amd64.tar.gz"
-      sha256 "3d4c999b8fcf810e5c908d6232122be3bd11a74a1fbef5c6aceddbb1cf982a06"
+      sha256 "91d1c3d77520fbdcfa326d0a87e04bee70bb281c4f437566182ce9da52adc65b"
     end
   end
 

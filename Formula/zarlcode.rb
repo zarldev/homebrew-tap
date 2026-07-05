@@ -13,20 +13,20 @@ class Zarlcode < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/zarldev/zarlmono/releases/download/zarlcode/v0.1.6/zarlcode_v0.1.6_darwin_arm64.tar.gz"
-      sha256 "fe98a3c85ef14b8a0641193f48ad0952c4f5ccccf34eb8d4f4a1c2aa62a5ef22"
+      sha256 "d325785eabe482df04c570b7da815e315931850380366058c38f4176fa32a945"
     else
       url "https://github.com/zarldev/zarlmono/releases/download/zarlcode/v0.1.6/zarlcode_v0.1.6_darwin_amd64.tar.gz"
-      sha256 "569c1a3267911322e5ee64460d9a1cd832fda8e28e900309e53d62a0f5e4f6b5"
+      sha256 "a30f6fe3b197934a5ccd980f0af0001da771e097dbfd79ad67e9afb3ec40ab1a"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/zarldev/zarlmono/releases/download/zarlcode/v0.1.6/zarlcode_v0.1.6_linux_arm64.tar.gz"
-      sha256 "d0959678a2f767b5a193e71d7bc0d3d01cedade2c139bc9c89de7aa8be5f845d"
+      sha256 "ce85313adfd89a38026f2a9a49ce19ca76c871bc877e6a6e541de07d0fa208b7"
     else
       url "https://github.com/zarldev/zarlmono/releases/download/zarlcode/v0.1.6/zarlcode_v0.1.6_linux_amd64.tar.gz"
-      sha256 "d88104e9dca70cb7182838b6ac04acab722d58d45ae2e291274397502988c7ee"
+      sha256 "97eb87683b50f302c5091fff41d8331472b46b525f98120b0ac82aa5835ac9a9"
     end
   end
 

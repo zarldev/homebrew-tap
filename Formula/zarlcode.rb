@@ -7,26 +7,26 @@
 class Zarlcode < Formula
   desc "Terminal coding agent / TUI — plan first, execute second, rewind anytime"
   homepage "https://github.com/zarldev/zarlmono"
-  version "0.15.0"
+  version "0.17.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/zarldev/zarlmono/releases/download/zarlcode/v0.15.0/zarlcode_v0.15.0_darwin_arm64.tar.gz"
-      sha256 "9eaf0678bb8e03572f4706d586da09ca2f3af1e9f3d4fbcbe7a8d6f02bac6aaa"
+      url "https://github.com/zarldev/zarlmono/releases/download/zarlcode/v0.17.0/zarlcode_v0.17.0_darwin_arm64.tar.gz"
+      sha256 "40856c45ff97fc6a8d8c73cdf018a4cdf46d8011fae409c50b99bb9cdf7378e5"
     else
-      url "https://github.com/zarldev/zarlmono/releases/download/zarlcode/v0.15.0/zarlcode_v0.15.0_darwin_amd64.tar.gz"
-      sha256 "3033cb2b04816a0e7e33936c7bd1b001dc7faed6bdb079596022c07585debfc6"
+      url "https://github.com/zarldev/zarlmono/releases/download/zarlcode/v0.17.0/zarlcode_v0.17.0_darwin_amd64.tar.gz"
+      sha256 "928f0c750d76b4716ab8ce3c8509b099adbd8d279e76cc3624616bca11469b3b"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/zarldev/zarlmono/releases/download/zarlcode/v0.15.0/zarlcode_v0.15.0_linux_arm64.tar.gz"
-      sha256 "bdc54e761cd8c8492e798fa8f23b02bfe4d9737c9205d328d1bd0fa81469eb0c"
+      url "https://github.com/zarldev/zarlmono/releases/download/zarlcode/v0.17.0/zarlcode_v0.17.0_linux_arm64.tar.gz"
+      sha256 "d307cb28b36ebb843f805f7161f98f068ed14bafe299ecf8f69fc11fa8baf227"
     else
-      url "https://github.com/zarldev/zarlmono/releases/download/zarlcode/v0.15.0/zarlcode_v0.15.0_linux_amd64.tar.gz"
-      sha256 "5d934335c9cefe81853aa0871a4583d38039dda43cb334381d4585d18510b265"
+      url "https://github.com/zarldev/zarlmono/releases/download/zarlcode/v0.17.0/zarlcode_v0.17.0_linux_amd64.tar.gz"
+      sha256 "2f77511e4a3da2926933aca930bfbfc1e61487aadec4f7d1d27df03709a9d62c"
     end
   end
 
